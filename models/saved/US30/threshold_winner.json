@@ -1,0 +1,70 @@
+{
+  "winner": {
+    "threshold": 0.7,
+    "trades": 4.4,
+    "win": 16.666666666666664,
+    "ret": -0.31600000000000006,
+    "sharpe_mean": -0.3348,
+    "sharpe_std": 0.9841990144274684,
+    "dd": -2.55,
+    "profitable_folds": 1,
+    "total_folds": 5
+  },
+  "all_results": [
+    {
+      "threshold": 0.7,
+      "trades": 4.4,
+      "win": 16.666666666666664,
+      "ret": -0.31600000000000006,
+      "sharpe_mean": -0.3348,
+      "sharpe_std": 0.9841990144274684,
+      "dd": -2.55,
+      "profitable_folds": 1,
+      "total_folds": 5
+    },
+    {
+      "threshold": 0.55,
+      "trades": 86.4,
+      "win": 35.502422185878416,
+      "ret": -12.148,
+      "sharpe_mean": -0.7412000000000001,
+      "sharpe_std": 1.1161685356611697,
+      "dd": -20.238,
+      "profitable_folds": 1,
+      "total_folds": 5
+    },
+    {
+      "threshold": 0.6,
+      "trades": 32.8,
+      "win": 30.31540319583798,
+      "ret": -6.648000000000001,
+      "sharpe_mean": -0.8577999999999999,
+      "sharpe_std": 0.6966402945566672,
+      "dd": -11.966,
+      "profitable_folds": 0,
+      "total_folds": 5
+    },
+    {
+      "threshold": 0.65,
+      "trades": 11.4,
+      "win": 15.999000999001002,
+      "ret": -3.008,
+      "sharpe_mean": -1.0913999999999997,
+      "sharpe_std": 0.9648193095082623,
+      "dd": -5.89,
+      "profitable_folds": 1,
+      "total_folds": 5
+    },
+    {
+      "threshold": 0.5,
+      "trades": 188.4,
+      "win": 34.24354827484997,
+      "ret": -26.952000000000005,
+      "sharpe_mean": -1.3074,
+      "sharpe_std": 1.1110057605611234,
+      "dd": -39.19799999999999,
+      "profitable_folds": 0,
+      "total_folds": 5
+    }
+  ]
+}

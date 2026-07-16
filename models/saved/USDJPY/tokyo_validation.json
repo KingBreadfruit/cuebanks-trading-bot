@@ -1,0 +1,25 @@
+{
+  "tokyo_window_est": [
+    20.0,
+    22.0
+  ],
+  "baseline": {
+    "trades": "986",
+    "win": 54.548776420471185,
+    "ret": 141.39999999999998,
+    "sharpe": 3.3850000000000002,
+    "sharpe_std": 0.42982670926781646,
+    "dd": -7.531999999999999,
+    "prof": 5
+  },
+  "with_tokyo": {
+    "trades": "1813",
+    "win": 55.122748302477376,
+    "ret": 421.03000000000003,
+    "sharpe": 4.6542,
+    "sharpe_std": 0.5187472409565184,
+    "dd": -7.630000000000001,
+    "prof": 5
+  },
+  "verdict": "DEPLOY \u2014 Tokyo extension preserves edge"
+}

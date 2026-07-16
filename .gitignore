@@ -1,0 +1,119 @@
+# ─────────────────────────────────────────────────────────────────
+# CueBot — Cuebanks Trading Bot
+# .gitignore
+# ─────────────────────────────────────────────────────────────────
+
+# ═══════════════════════════════════════════════════════════════
+# SECRETS — NEVER COMMIT
+# ═══════════════════════════════════════════════════════════════
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
+
+# ═══════════════════════════════════════════════════════════════
+# Python
+# ═══════════════════════════════════════════════════════════════
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# ═══════════════════════════════════════════════════════════════
+# Large data files (regeneratable from MT5)
+# ═══════════════════════════════════════════════════════════════
+data/raw/*.csv
+data/processed/*.csv
+data/vix_cache.csv
+data/**/*.parquet
+
+
+# ═══════════════════════════════════════════════════════════════
+# Large model artifacts (regeneratable via training scripts)
+# Keep config/metrics JSON — those are small and useful.
+# ═══════════════════════════════════════════════════════════════
+models/saved/**/*.pkl
+models/saved/**/*.pt
+models/saved/**/*.joblib
+models/saved/_wf_tmp/
+models/plots/
+
+
+# ═══════════════════════════════════════════════════════════════
+# Runtime state + logs
+# ═══════════════════════════════════════════════════════════════
+paper_trading/logs/
+paper_trading/state.json
+paper_trading/state.json.tmp
+state.json
+*.log
+_wf_v75*.log
+_thr_v75*.log
+
+
+# ═══════════════════════════════════════════════════════════════
+# Backtest + research outputs (local only — regenerate on demand)
+# ═══════════════════════════════════════════════════════════════
+backtest/deployment_sim_results/
+runs/
+ablation_results/
+ablation_quant_vix_results/
+research/ablation_us30_smc/results/
+research/ablation_us30_smc/cache/
+research/ablation_quant_vix/results/
+
+
+# ═══════════════════════════════════════════════════════════════
+# Personal Claude Code config (contains bypassPermissions setting)
+# ═══════════════════════════════════════════════════════════════
+.claude/
+
+
+# ═══════════════════════════════════════════════════════════════
+# IDE / editor
+# ═══════════════════════════════════════════════════════════════
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+
+# ═══════════════════════════════════════════════════════════════
+# OS
+# ═══════════════════════════════════════════════════════════════
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ═══════════════════════════════════════════════════════════════
+# Zip / backup archives
+# ═══════════════════════════════════════════════════════════════
+*.zip
+*.tar.gz
+*.7z
+trading_bot_pre_*.zip

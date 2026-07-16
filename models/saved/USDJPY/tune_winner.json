@@ -1,0 +1,237 @@
+{
+  "winner_params": {
+    "max_iter": 500,
+    "max_depth": 4,
+    "learning_rate": 0.03,
+    "l2_regularization": 3.0,
+    "min_samples_leaf": 20
+  },
+  "winner_scores": {
+    "mean_tradable_hit": 0.6105484094121207,
+    "mean_tradable_n": 6440.666666666667,
+    "mean_dir_acc": 0.4785724352315581,
+    "composite": 0.19375595302076765
+  },
+  "all_results": [
+    {
+      "max_iter": 500,
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "l2_regularization": 3.0,
+      "min_samples_leaf": 20,
+      "mean_tradable_hit": 0.6105484094121207,
+      "mean_tradable_n": 6440.666666666667,
+      "mean_dir_acc": 0.4785724352315581,
+      "composite": 0.19375595302076765
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "l2_regularization": 5.0,
+      "min_samples_leaf": 120,
+      "mean_tradable_hit": 0.6047127914886167,
+      "mean_tradable_n": 6244.333333333333,
+      "mean_dir_acc": 0.4596445401660027,
+      "composite": 0.18895645545927667
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 5,
+      "learning_rate": 0.05,
+      "l2_regularization": 5.0,
+      "min_samples_leaf": 40,
+      "mean_tradable_hit": 0.6081996027249619,
+      "mean_tradable_n": 5973.333333333333,
+      "mean_dir_acc": 0.4421516204167533,
+      "composite": 0.18587631180199798
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "l2_regularization": 1.0,
+      "min_samples_leaf": 120,
+      "mean_tradable_hit": 0.6032239458120696,
+      "mean_tradable_n": 6011.666666666667,
+      "mean_dir_acc": 0.4412342172090807,
+      "composite": 0.18494626204073564
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 5,
+      "learning_rate": 0.05,
+      "l2_regularization": 5.0,
+      "min_samples_leaf": 20,
+      "mean_tradable_hit": 0.6044522896200087,
+      "mean_tradable_n": 5973.0,
+      "mean_dir_acc": 0.43943466446561014,
+      "composite": 0.18472591374327776
+    },
+    {
+      "max_iter": 800,
+      "max_depth": 4,
+      "learning_rate": 0.08,
+      "l2_regularization": 5.0,
+      "min_samples_leaf": 20,
+      "mean_tradable_hit": 0.6023629273788863,
+      "mean_tradable_n": 5829.333333333333,
+      "mean_dir_acc": 0.42740359291062613,
+      "composite": 0.18186001361301293
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "l2_regularization": 0.5,
+      "min_samples_leaf": 80,
+      "mean_tradable_hit": 0.6020886844043966,
+      "mean_tradable_n": 5789.666666666667,
+      "mean_dir_acc": 0.42416583911515265,
+      "composite": 0.18115769429569234
+    },
+    {
+      "max_iter": 800,
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "l2_regularization": 1.0,
+      "min_samples_leaf": 120,
+      "mean_tradable_hit": 0.6013274677378052,
+      "mean_tradable_n": 5743.333333333333,
+      "mean_dir_acc": 0.42026887259836715,
+      "composite": 0.18020323895563833
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 5,
+      "learning_rate": 0.1,
+      "l2_regularization": 3.0,
+      "min_samples_leaf": 20,
+      "mean_tradable_hit": 0.6032032033980576,
+      "mean_tradable_n": 5639.333333333333,
+      "mean_dir_acc": 0.4138639672314522,
+      "composite": 0.17912122937321048
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 8,
+      "learning_rate": 0.05,
+      "l2_regularization": 1.0,
+      "min_samples_leaf": 40,
+      "mean_tradable_hit": 0.6036289500383142,
+      "mean_tradable_n": 5630.666666666667,
+      "mean_dir_acc": 0.4135592079712489,
+      "composite": 0.17910986579492477
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 5,
+      "learning_rate": 0.1,
+      "l2_regularization": 5.0,
+      "min_samples_leaf": 120,
+      "mean_tradable_hit": 0.597123166831727,
+      "mean_tradable_n": 5745.333333333333,
+      "mean_dir_acc": 0.4175292699883347,
+      "composite": 0.17897446606252185
+    },
+    {
+      "max_iter": 800,
+      "max_depth": 5,
+      "learning_rate": 0.05,
+      "l2_regularization": 3.0,
+      "min_samples_leaf": 20,
+      "mean_tradable_hit": 0.6027533117905824,
+      "mean_tradable_n": 5632.666666666667,
+      "mean_dir_acc": 0.4131349963443251,
+      "composite": 0.17888180558655137
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 6,
+      "learning_rate": 0.08,
+      "l2_regularization": 0.5,
+      "min_samples_leaf": 120,
+      "mean_tradable_hit": 0.6020732279168443,
+      "mean_tradable_n": 5591.0,
+      "mean_dir_acc": 0.40961905606423965,
+      "composite": 0.17801787039034078
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "l2_regularization": 1.0,
+      "min_samples_leaf": 80,
+      "mean_tradable_hit": 0.6004745757194442,
+      "mean_tradable_n": 5590.0,
+      "mean_dir_acc": 0.40836223549244527,
+      "composite": 0.1775293107735259
+    },
+    {
+      "max_iter": 800,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "l2_regularization": 5.0,
+      "min_samples_leaf": 120,
+      "mean_tradable_hit": 0.6005850705817087,
+      "mean_tradable_n": 5484.333333333333,
+      "mean_dir_acc": 0.4011213801390223,
+      "composite": 0.17587576231081944
+    },
+    {
+      "max_iter": 800,
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "l2_regularization": 1.0,
+      "min_samples_leaf": 20,
+      "mean_tradable_hit": 0.6007679965312965,
+      "mean_tradable_n": 5471.666666666667,
+      "mean_dir_acc": 0.40001762420010706,
+      "composite": 0.17572604903470307
+    },
+    {
+      "max_iter": 800,
+      "max_depth": 8,
+      "learning_rate": 0.05,
+      "l2_regularization": 0.5,
+      "min_samples_leaf": 80,
+      "mean_tradable_hit": 0.6022308017458813,
+      "mean_tradable_n": 5406.0,
+      "mean_dir_acc": 0.39625004491711663,
+      "composite": 0.17509370155365542
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 8,
+      "learning_rate": 0.08,
+      "l2_regularization": 0.5,
+      "min_samples_leaf": 40,
+      "mean_tradable_hit": 0.6003129954822022,
+      "mean_tradable_n": 5404.666666666667,
+      "mean_dir_acc": 0.3949741225596047,
+      "composite": 0.1745145899189162
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 8,
+      "learning_rate": 0.08,
+      "l2_regularization": 0.5,
+      "min_samples_leaf": 120,
+      "mean_tradable_hit": 0.5983321558269161,
+      "mean_tradable_n": 5439.0,
+      "mean_dir_acc": 0.3961757357360154,
+      "composite": 0.17449034929411347
+    },
+    {
+      "max_iter": 500,
+      "max_depth": 8,
+      "learning_rate": 0.1,
+      "l2_regularization": 0.5,
+      "min_samples_leaf": 40,
+      "mean_tradable_hit": 0.6013639870215343,
+      "mean_tradable_n": 5251.666666666667,
+      "mean_dir_acc": 0.3840923596094785,
+      "composite": 0.17232787476114417
+    }
+  ]
+}
